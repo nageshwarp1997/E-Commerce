@@ -9,11 +9,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Navbar />
 
       {/* Main Body */}
-      <div className="flex">
+      <div className="flex w-full">
         {/* Sidebar */}
         <Sidebar />
         {/* Main */}
-        <main className="">{children}</main>
+        <main className="p-4 w-full">{children}</main>
       </div>
     </div>
   );
