@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Open_Sans } from "next/font/google";
-import "../../styles/main.scss";
+import "../../styles/main.css";
 
 const openSans = Open_Sans({
   variable: "--font-open-sans",
